@@ -2,64 +2,67 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>REMISIÓN</title>
-		<link rel="stylesheet" href="https://fredyortegon30.github.io/invoice/style.css">
+		<title>PEDIDO</title>
+		<link rel="stylesheet" href="https://wesjapan2021.github.io/invoice/style.css">
 		<link rel="license" href="https://www.opensource.org/licenses/mit-license/">
 	</head>
 	<body>
 		<header>
-			<h1>REMISIÓN</h1>
+			<h1>PEDIDO</h1>
 			<address>
-				<p>MI EMPRESA</p>
-				<p>NIT 1111111111<br>Calle 11- 10-33</p>
-				<p>Pereira</p>
+				<p>IMPORTADORA Y EXPORTADORA PEREZ</p>
+				<p>NIT 23317442<br>2 CALLE BARRIO LA LIBERTAD JOYABAY</p>
+				<p>QUICHE</p>
 			</address>
 
 <div style="float: right;">
-    <img alt="" src="https://acortar.link/caSNRS" style="width: 100px; height: 100px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="">
+    <img alt="" src="https://encr.pw/EQgpc" style="width: 100px; height: 100px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="">
 </div>
 
 
 		</header>
 		<article>
-			<h1>Recipient</h1>
+			<h1>CLIENTE</h1>
 			<address>
-				<p>&lt;&lt;[id_cliente].[Nombre_cliente]&gt;&gt;<br>-</p>
-                <p class="small-text"><br>Email: &lt;&lt;[id_cliente].[Email]&gt;&gt;</p>
-                <p class="small-text">Cel:&lt;&lt;[id_cliente].[Celular]&gt;&gt;</p>
+				<p>&lt;&lt;[NOMBRE EMPRESA]&gt;&gt;<br>-</p>
+                <p class="small-text"><br>DIRECCION: &lt;&lt;[DESTINO]&gt;&gt;</p>
+                <p class="small-text">TELEFONO:&lt;&lt;[TELEFONO]&gt;&gt;</p>
 			</address>
 			<table class="meta">
 				<tr>
 					<th><span>Remisión #</span></th>
-					<td><span>&lt;&lt;[N_factura]&gt;&gt;</span></td>
+					<td><span>&lt;&lt;[NO VENTA]&gt;&gt;</span></td>
 				</tr>
 				<tr>
 					<th><span>Fecha</span></th>
-					<td><span>&lt;&lt;[Fecha]&gt;&gt;</span></td>
+					<td><span>&lt;&lt;[FECHA]&gt;&gt;</span></td>
 				</tr>
 				<tr>
-					<th><span>Total</span></th>
-					<td><span>&lt;&lt;[TOTAL VENTA]&gt;&gt;</span></td>
+					<th><span>TOTAL:</span></th>
+					<td><span>&lt;&lt;[TOTAL DE VENTA]&gt;&gt;</span></td>
 				</tr>
 			</table>
-			<table class="inventory">
+			<table class="DATOS DE PEDIDO">
 				<thead>
 					<tr>
-						<th><span>Producto</span></th>
-						<th><span>Descripcion</span></th>
-						<th><span>Valor ud</span></th>
-						<th><span>Cantidad</span></th>
-						<th><span>Subtotal</span></th>
+						<th><span>**UB**</span></th>
+						<th><span>CANTIDAD</span></th>
+						<th><span>CODIGO</span></th>
+						<th><span>DESCRIPCION</span></th>
+						<th><span>PRECIO</span></th>
+						<th><span>SUBTOTAL</span></th>
 					</tr>
 				</thead>
 				<tbody>
-				<p><span>&lt;&lt;Start: SELECT(DETALLE_VENTAS[id_detalle],[id_encabezado_venta]=[id_encabezado]) &gt;&gt;</span></p>
+				<p><span>&lt;&lt;Start: SELECT(VENTA[ID],[NO VENTA]=[NO VENTA]) &gt;&gt;</span></p>
 					<tr>
-						<td><a class="cut">-</a>&lt;&lt;[id_producto].[Nombre de producto]&gt;&gt;</td>
+						<td><a class="cut">-</a>&lt;&lt;[PRODUCTO]&gt;&gt;</td>
 						<td><span></span></td>
-				        <td><span>&lt;&lt;[Valor_unitario]&gt;&gt;</span></td>
-						<td><span>&lt;&lt;[Cantidad]&gt;&gt;</span></td>
-						<td><span>&lt;&lt;[Subtotal]&gt;&gt;</span></td>
+				        <td><span>&lt;&lt;[UBICACION]&gt;&gt;</span></td>
+						<td><span>&lt;&lt;[CANTIDAD]&gt;&gt;</span></td>
+						<td><span>&lt;&lt;[DESCRIPCION]&gt;&gt;</span></td>
+						<td><span>&lt;&lt;[PRECIO DE VENTA]&gt;&gt;</span></td>
+						<td><span>&lt;&lt;[SUBTOTAL]&gt;&gt;</span></td>
 					</tr>
 				<p><span>&lt;&lt; end &gt;&gt;</span></p>
 				</tbody>
@@ -67,23 +70,23 @@
 			<a class="add">+</a>
 			<table class="balance">
 				<tr>
-					<th><span>Total</span></th>
-					<td><span>&lt;&lt;[TOTAL VENTA]&gt;&gt;</span></td>
+					<th><span>TOTAL:</span></th>
+					<td><span>&lt;&lt;[TOTAL DE VENTA]&gt;&gt;</span></td>
 				</tr>
 				<tr>
 					<th><span>Otros conceptos</span></th>
-					<td><span data-prefix="$"></span><span>0.00</span></td>
+					<td><span data-prefix="Q"></span><span>0.00</span></td>
 				</tr>
 				<tr>
 					<th><span>Total a pagar</span></th>
-					<td><span>&lt;&lt;[TOTAL VENTA]&gt;&gt;</span></td>
+					<td><span>&lt;&lt;[TOTAL DE VENTA]&gt;&gt;</span></td>
 				</tr>
 			</table>
 		</article>
 		<aside>
-			<h1><span>Notas adicionales</span></h1>
+			<h1><span>TODO LO PUEDO EN CRISTO QUE ME FORTALECE!</span></h1>
 			<div>
-				<p>Pagos a la cuenta de ahorros bancolombia # </p>
+				<p>30 DIAS DE CREDITO</p>
 			</div>
 		</aside>
 	</body>
